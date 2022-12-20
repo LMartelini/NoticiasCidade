@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../Imagens/fundo.png) repeat-x;
+}
+
+.container {
+    width: 690px;
+    height: 1500px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    background-color:#b10333;
+    width: 538px;
+    position: relative;
+    bottom: 130px;   
+}
+
+ul a:hover {
+    color: black;
+}
+
+.selecionado {
+    background-color: #c42d4b;
+}
+
+li {
+    padding: 12px;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    height: 60px;
+    position: relative;
+    top: 30px;
+}
+
+.topo {
+    margin-left: 480px;
+    height: 180px;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+
+h3 {
+    margin-top: 50px;
+    color: #fff;
+    background: rgba(4, 4, 73, 0.842);
+    padding-left: 5px;
+    width: 150px;
+    height: 25px;
+    padding-top: 5px;
+    line-height: 18px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    color: grey;
+}
+
+.itens {
+    display: flex;
+    margin: 0 auto;
+}
+
+.item1 {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item2 {
+    padding-left: 48px;
+    width: 200px;
+}
+
+.item3 {
+    padding-left: 90px;
+}
+
+.cabeçalhoitem2 {
+    margin-top: 50px;
+    color: #fff;
+    background: rgba(4, 4, 73, 0.842);
+    padding-left: 5px;
+    width: 250px;
+    height: 25px;
+    padding-top: 5px;
+    line-height: 18px;
+}
+
+.cabeçalhoitem3 {
+    margin-top: 50px;
+    color: #fff;
+    background: rgba(4, 4, 73, 0.842);
+    padding-left: 5px;
+    width: 250px;
+    height: 25px;
+    padding-top: 5px;
+    line-height: 18px;
+}
+
+p {
+    font-size: 15px;
+    padding: 7px 5px;
+    margin-top: 12px;
+}
+
+.h5item2 {
+    background: #b10333;
+    width: 190px;
+    margin-top: 15px;
+    padding: 2px 0;
+}
+
+.imgitem2 {
+    width: 230px;
+    margin-top: 5px;
+}
+
+.h8item23 {
+    font-size: 15px;
+    margin-top: 0.1px;
+}
+
+.link23 {
+    font-size: 14.9px;
+    color: #af324b;
+}
+
+.h5item3 {
+    background: rgb(151, 7, 55);
+    width: 114px;
+    margin-top: 15px;
+    padding: 2px 3px;
+    color: #fff;
+}
+
+.imgitem3 {
+    width: 220px;
+    margin-top: 5px;
+}
+
+.email {
+    padding: 7px 5px;
+    border: 1px solid rgba(54, 97, 238, 0.733);
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.linkitem1 {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background: #c42d4b;
+    padding: 5px;
+}
+
+.img-mundo {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.p1-img1 {
+    color: rgb(44, 44, 204);
+    position: relative;
+    left: 120px;
+    bottom: 93px;
+    font-size: 13px;
+}
+
+.p2-img1 {
+    position: relative;
+    left: 115px;
+    bottom: 115px;
+    font-size: 13px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.all {
+    width: 250px;
+    display: flex;
+    border: gray;
+}
+
+.paragrafo1{
+    font-size: 10px;
+    color: rgb(40, 40, 209);
+    margin-left: 5px;
+    padding-top: 13px;
+}
+
+span {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.paragrafo2{
+    font-size: 10px;
+    color: rgb(40, 40, 209);
+    margin-left: 5px;
+    padding-top: 28px;
+}
+
+.paragrafo3{
+    font-size: 10px;
+    color: rgb(40, 40, 209);
+    margin-left: 5px;
+    padding-top: 26px;
+}
+
+.paragrafo4{
+    font-size: 10px;
+    color: rgb(40, 40, 209);
+    margin-left: 5px;
+    padding-top: 27px;
+}
+
+.noticias {
+    margin-top: 57px;
+    color: #fff;
+    background: rgba(4, 4, 73, 0.842);
+    padding-left: 5px;
+    width: 250px;
+    height: 25px;
+    padding-top: 5px;
+    line-height: 18px;
+}
+
+.espaço {
+    position: relative;
+    bottom: 90px;
+}
+
